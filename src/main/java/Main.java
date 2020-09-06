@@ -1,6 +1,6 @@
 import entity.Position;
 import entity.Rover;
-import tool.UserInput;
+import entity.UserInput;
 
 import java.util.ArrayList;
 import java.util.Scanner;

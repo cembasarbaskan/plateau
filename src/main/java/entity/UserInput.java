@@ -1,7 +1,4 @@
-package tool;
-
-import entity.Position;
-import entity.Rover;
+package entity;
 
 public class UserInput extends Rover {
     private final int x;
