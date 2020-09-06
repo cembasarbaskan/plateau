@@ -7,9 +7,6 @@ import org.junit.contrib.java.lang.system.TextFromStandardInputStream;
 import static org.junit.contrib.java.lang.system.TextFromStandardInputStream.emptyStandardInputStream;
 
 public class MainTest {
-    @Rule
-    public final TextFromStandardInputStream systemInMock = emptyStandardInputStream();
-
     @Test
     public void test00() {
         Rover rover = new Rover(5, 5, new Position(1, 2, 'N'), "LMLMLMLMM".toCharArray());
